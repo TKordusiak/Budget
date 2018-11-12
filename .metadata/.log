@@ -1,0 +1,191 @@
+!SESSION 2018-11-11 20:48:09.295 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-11 20:49:28.817
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KiT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-11-11 20:49:37.033
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-11-11 20:50:06.738
+!MESSAGE Connection to http://downloads.sourceforge.net/project/sapnweclipse/updates/features/com.sap.netweaver.porta.ide.eclipse.feature_0.4.1.200907211842.jar failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-11-11 20:54:42.298
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-11 21:01:54.725
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-11 21:03:05.799
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-11 21:13:29.262
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2018-11-12 00:03:10.463 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-12 00:04:02.946
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KiT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-11-12 00:05:04.680
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-11-12 00:05:08.107
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2018-11-12 12:25:02.443 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-12 12:26:43.294
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KiT'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-12 12:29:36.449
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-12 12:29:36.572
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-11-12 12:49:07.960
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] C:\Program Files\Java\jre-10.0.2\lib\jrt-fs.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\commons-logging-1.2.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\mysql-connector-java-8.0.13.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\spring-beans-5.0.8.RELEASE.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\spring-core-5.0.8.RELEASE.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\spring-jcl-5.0.8.RELEASE.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\spring-jdbc-5.0.8.RELEASE.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\spring-tx-5.0.8.RELEASE.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\taglibs-standard-impl-1.2.5.jar
+  [+] D:\Budget\budget\WebContent\WEB-INF\lib\taglibs-standard-spec-1.2.5.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\annotations-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\catalina-ant.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\catalina-ha.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\catalina-storeconfig.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\catalina-tribes.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\catalina.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\ecj-4.7.3a.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\el-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\jasper-el.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\jasper.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\jaspic-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\jsp-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\servlet-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-api.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-coyote.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-dbcp.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-i18n-es.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-i18n-fr.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-i18n-ja.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-i18n-ru.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-jdbc.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-jni.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-util-scan.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-util.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\tomcat-websocket.jar
+  [+] D:\Tomcat9\apache-tomcat-9.0.12\lib\websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-12 13:41:50.389
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

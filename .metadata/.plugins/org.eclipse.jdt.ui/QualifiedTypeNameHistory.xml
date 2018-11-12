@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="model.Financial"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="model.Foots"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.sun.xml.internal.bind.CycleRecoverable.Context"/>
+    <fullyQualifiedTypeName name="javax.naming.Context"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="javax.naming.NamingException"/>
+    <fullyQualifiedTypeName name="dao.DAOFactory"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="model.User"/>
+    <fullyQualifiedTypeName name="model.Savings"/>
+    <fullyQualifiedTypeName name="model.Planned"/>
+    <fullyQualifiedTypeName name="model.Other"/>
+    <fullyQualifiedTypeName name="model.Medicine"/>
+    <fullyQualifiedTypeName name="model.Foot"/>
+    <fullyQualifiedTypeName name="model.Entertainment"/>
+    <fullyQualifiedTypeName name="model.Development"/>
+    <fullyQualifiedTypeName name="model.Cosmetics"/>
+    <fullyQualifiedTypeName name="model.Clothes"/>
+    <fullyQualifiedTypeName name="dao.GenericDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="model.Bills"/>
+    <fullyQualifiedTypeName name="dao.UserDAO"/>
+    <fullyQualifiedTypeName name="dao.SavingsDAO"/>
+    <fullyQualifiedTypeName name="dao.PlannedDAO"/>
+    <fullyQualifiedTypeName name="dao.OtherDAO"/>
+    <fullyQualifiedTypeName name="dao.MedicineDAO"/>
+    <fullyQualifiedTypeName name="dao.FootDAO"/>
+    <fullyQualifiedTypeName name="dao.FinancialDAO"/>
+    <fullyQualifiedTypeName name="dao.EntertainmentDAO"/>
+    <fullyQualifiedTypeName name="dao.DevelopmentDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="dao.CosmeticsDAO"/>
+    <fullyQualifiedTypeName name="dao.BillsDAO"/>
+</qualifiedTypeNameHistroy>
