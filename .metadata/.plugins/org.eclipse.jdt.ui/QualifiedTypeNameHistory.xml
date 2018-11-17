@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="model.Financial"/>
-    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
-    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="model.Foots"/>
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
@@ -14,11 +9,6 @@
     <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
     <fullyQualifiedTypeName name="javax.sql.DataSource"/>
     <fullyQualifiedTypeName name="javax.naming.NamingException"/>
-    <fullyQualifiedTypeName name="dao.DAOFactory"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="model.User"/>
-    <fullyQualifiedTypeName name="model.Savings"/>
-    <fullyQualifiedTypeName name="model.Planned"/>
     <fullyQualifiedTypeName name="model.Other"/>
     <fullyQualifiedTypeName name="model.Medicine"/>
     <fullyQualifiedTypeName name="model.Foot"/>
@@ -27,11 +17,8 @@
     <fullyQualifiedTypeName name="model.Cosmetics"/>
     <fullyQualifiedTypeName name="model.Clothes"/>
     <fullyQualifiedTypeName name="dao.GenericDAO"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.Bills"/>
-    <fullyQualifiedTypeName name="dao.UserDAO"/>
     <fullyQualifiedTypeName name="dao.SavingsDAO"/>
-    <fullyQualifiedTypeName name="dao.PlannedDAO"/>
     <fullyQualifiedTypeName name="dao.OtherDAO"/>
     <fullyQualifiedTypeName name="dao.MedicineDAO"/>
     <fullyQualifiedTypeName name="dao.FootDAO"/>
@@ -41,4 +28,36 @@
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="dao.CosmeticsDAO"/>
     <fullyQualifiedTypeName name="dao.BillsDAO"/>
+    <fullyQualifiedTypeName name="model.Description"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="model.User"/>
+    <fullyQualifiedTypeName name="model.Transaction"/>
+    <fullyQualifiedTypeName name="model.Savings"/>
+    <fullyQualifiedTypeName name="model.Planned"/>
+    <fullyQualifiedTypeName name="model.Main"/>
+    <fullyQualifiedTypeName name="model.CategoriesPlanned"/>
+    <fullyQualifiedTypeName name="model.Categories"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="dao.UserDAO"/>
+    <fullyQualifiedTypeName name="dao.TransactionDAO"/>
+    <fullyQualifiedTypeName name="dao.SavindsDAO"/>
+    <fullyQualifiedTypeName name="dao.PlannedDAO"/>
+    <fullyQualifiedTypeName name="dao.MainDAO"/>
+    <fullyQualifiedTypeName name="dao.GenerictDAO"/>
+    <fullyQualifiedTypeName name="dao.CategoriesPlannedDAO"/>
+    <fullyQualifiedTypeName name="dao.CategoriesDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate"/>
+    <fullyQualifiedTypeName name="util.ConnectionProvider"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.support.KeyHolder"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.SqlParameterSource"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource"/>
+    <fullyQualifiedTypeName name="dao.MysqlDAOFactory"/>
+    <fullyQualifiedTypeName name="exeption.NoSuchDbTypeExeption"/>
+    <fullyQualifiedTypeName name="model.Login"/>
+    <fullyQualifiedTypeName name="dao.DAOFactory"/>
+    <fullyQualifiedTypeName name="dao.LoginDAO"/>
+    <fullyQualifiedTypeName name="service.LoginService"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.util.ResultSetUtil"/>
+    <fullyQualifiedTypeName name="dao.LoginDAOImpl"/>
 </qualifiedTypeNameHistroy>

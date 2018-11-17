@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.Savings;
 
-public class SavingsDAOImpl implements SavingsDAO{
+public class SavingsDAOImpl implements SavindsDAO{
 
 	@Override
 	public Savings creat(Savings newObject) {
@@ -13,7 +13,7 @@ public class SavingsDAOImpl implements SavingsDAO{
 	}
 
 	@Override
-	public Savings read(Long primaryKey) {
+	public Savings read(Long premaryKey) {
 		// TODO Auto-generated method stub
 		return null;
 	}

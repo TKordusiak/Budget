@@ -1,0 +1,70 @@
+package dao;
+
+import java.util.List;
+
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
+
+import com.mysql.cj.jdbc.util.ResultSetUtil;
+
+import model.Login;
+import util.ConnectionProvider;
+
+public class LoginDAOImpl implements LoginDAO{
+	
+	private static final String CREAT_LOGIN = "INSERT INTO login(name, password, email) VALUES(:name, :password, :email);";
+	
+	private NamedParameterJdbcTemplate template;
+	
+	public LoginDAOImpl() {
+		template = new NamedParameterJdbcTemplate(ConnectionProvider.getDataSource());
+	}
+
+	@Override
+	public Login creat(Login login) {
+		Login resultLogin = new Login(login);
+		KeyHolder holder = new GeneratedKeyHolder();
+		SqlParameterSource paramSource = new BeanPropertySqlParameterSource(login);
+		int update = template.update(CREAT_LOGIN, paramSource, holder);
+			if(update>0) {
+				resultLogin.setId(holder.getKey().longValue());
+				
+			}
+		return resultLogin;
+	}
+
+
+	@Override
+	public Login read(Long premaryKey) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean update(Login updateObject) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delate(Long key) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Login> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Login getLoginByName(String Name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

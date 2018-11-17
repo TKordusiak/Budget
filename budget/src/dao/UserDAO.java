@@ -4,8 +4,8 @@ import java.util.List;
 
 import model.User;
 
-public interface UserDAO extends GenericDAO<User, Long> {
+public interface UserDAO extends GenerictDAO<User, Long>{
 	
-	List<User> getAll();
-	User getUserByUsername(String name);
+	List<User>getAll();
+
 }

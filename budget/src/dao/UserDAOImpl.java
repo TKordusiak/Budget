@@ -13,7 +13,7 @@ public class UserDAOImpl implements UserDAO{
 	}
 
 	@Override
-	public User read(Long primaryKey) {
+	public User read(Long premaryKey) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -32,12 +32,6 @@ public class UserDAOImpl implements UserDAO{
 
 	@Override
 	public List<User> getAll() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public User getUserByUsername(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}

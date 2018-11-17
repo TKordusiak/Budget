@@ -2,16 +2,20 @@ package model;
 
 public class Savings {
 	private long id;
-	private String name;
-	private String value;
+	private String description;
+	private String categories;
+	private int categories_id;
+	private int transaction_id;
 	
 	public Savings() {
 	}
 	
 	public Savings(Savings savings) {
 		this.id = savings.id;
-		this.name = savings.name;
-		this.value = savings.value;
+		this.description = savings.description;
+		this.categories = savings.categories;
+		this.categories_id = savings.categories_id;
+		this.transaction_id = savings.transaction_id;
 	}
 
 	public long getId() {
@@ -22,34 +26,47 @@ public class Savings {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public String getValue() {
-		return value;
+	public String getCategories() {
+		return categories;
 	}
 
-	public void setValue(String value) {
-		this.value = value;
+	public void setCategories(String categories) {
+		this.categories = categories;
 	}
 
-	@Override
-	public String toString() {
-		return "Savings [id=" + id + ", name=" + name + ", value=" + value + "]";
+	public int getCategories_id() {
+		return categories_id;
+	}
+
+	public void setCategories_id(int categories_id) {
+		this.categories_id = categories_id;
+	}
+
+	public int getTransaction_id() {
+		return transaction_id;
+	}
+
+	public void setTransaction_id(int transaction_id) {
+		this.transaction_id = transaction_id;
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((categories == null) ? 0 : categories.hashCode());
+		result = prime * result + categories_id;
+		result = prime * result + ((description == null) ? 0 : description.hashCode());
 		result = prime * result + (int) (id ^ (id >>> 32));
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((value == null) ? 0 : value.hashCode());
+		result = prime * result + transaction_id;
 		return result;
 	}
 
@@ -62,20 +79,31 @@ public class Savings {
 		if (getClass() != obj.getClass())
 			return false;
 		Savings other = (Savings) obj;
+		if (categories == null) {
+			if (other.categories != null)
+				return false;
+		} else if (!categories.equals(other.categories))
+			return false;
+		if (categories_id != other.categories_id)
+			return false;
+		if (description == null) {
+			if (other.description != null)
+				return false;
+		} else if (!description.equals(other.description))
+			return false;
 		if (id != other.id)
 			return false;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		if (value == null) {
-			if (other.value != null)
-				return false;
-		} else if (!value.equals(other.value))
+		if (transaction_id != other.transaction_id)
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Savings [id=" + id + ", description=" + description + ", categories=" + categories + ", categories_id="
+				+ categories_id + ", transaction_id=" + transaction_id + "]";
+	}
 	
 	
+
 }

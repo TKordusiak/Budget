@@ -16,12 +16,12 @@ public class ConnectionProvider {
 		
 	}
 
-	private static DataSource getDataSource() {
+	public static DataSource getDataSource() {
 		if(dataSource == null ) {
 			try {
 				Context initialContext = new InitialContext();
 				Context envContext = (Context) initialContext.lookup("java:comp/env");
-				DataSource ds = (DataSource) envContext.lookup("jdbc/my_app");
+				DataSource ds = (DataSource) envContext.lookup("jdbc/mydb");
 				dataSource = ds;
 			}catch(NamingException e) {
 				e.printStackTrace();

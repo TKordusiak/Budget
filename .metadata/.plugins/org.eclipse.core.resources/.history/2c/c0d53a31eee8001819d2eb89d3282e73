@@ -1,0 +1,15 @@
+package dao;
+
+import java.io.Serializable;
+import java.util.List;
+
+public interface CategoriesDAO<T,PK extends Serializable> {
+	
+	//CRUD
+	T creat(T newObject);
+	T read (PK primaryKey);
+	boolean update(T updateObject);
+	boolean delate(PK key);
+	List<T>getAll();
+
+}

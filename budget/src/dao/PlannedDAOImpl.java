@@ -13,7 +13,7 @@ public class PlannedDAOImpl implements PlannedDAO{
 	}
 
 	@Override
-	public Planned read(Long primaryKey) {
+	public Planned read(Long premaryKey) {
 		// TODO Auto-generated method stub
 		return null;
 	}

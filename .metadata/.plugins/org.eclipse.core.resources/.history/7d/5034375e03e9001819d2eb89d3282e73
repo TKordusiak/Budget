@@ -1,0 +1,14 @@
+package dao;
+
+public abstract class DAOFactory {
+	
+	public abstract UserDAO getUserDAO();
+	public abstract TransactionDAO getTransactionDAO();
+	public abstract SavindsDAO getSavingsDAO();
+	public abstract PlannedDAO getPlannedDAO();
+	public abstract MainDAO getMainDAO();
+	public abstract LoginDAO getLoginDAO();
+	public abstract CategoriesPlannedDAO getCategoriesPlanned();
+	public abstract CategoriesDAO getCategoriesDAO();
+
+}

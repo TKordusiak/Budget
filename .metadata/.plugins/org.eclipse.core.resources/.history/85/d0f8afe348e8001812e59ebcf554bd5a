@@ -1,0 +1,16 @@
+package model;
+
+public class Transaction {
+	private long id;
+	private String description;
+	private int day;
+	private int month;
+	private int year;
+	private int amount;
+	
+	public Transaction(Description description) {
+		this.id = description.id;
+		this.description 
+	}
+
+}

@@ -4,7 +4,7 @@ import java.util.List;
 
 import model.Planned;
 
-public interface PlannedDAO extends GenericDAO<Planned, Long> {
+public interface PlannedDAO extends GenerictDAO<Planned, Long>{
 	List<Planned>getAll();
 
 }

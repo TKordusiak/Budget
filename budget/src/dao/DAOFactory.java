@@ -1,18 +1,38 @@
 package dao;
 
+import exeption.NoSuchDbTypeExeption;
+
 public abstract class DAOFactory {
-	public abstract UserDAO getUserDAO();
-	public abstract SavingsDAO getSavingDAO();
-	public abstract PlannedDAO getPlannedDAO();
-	public abstract OtherDAO getOtherDAO();
-	public abstract MedicineDAO getMedicineDAO();
-	public abstract FootDAO getFootsDAO();
-	public abstract FinancialDAO getFinancialDAO();
-	public abstract EntertainmentDAO getEntertainmentDAO();
-	public abstract DevelopmentDAO getDevelopmentDAO();
-	public abstract CosmeticsDAO getCosmeticsDAO();
-	public abstract ClothesDAO getClothesDAO();
-	public abstract BillsDAO getBillsDAO();
 	
+	public static final int MYSQL_DAO_FACTORY = 1;
+	
+	public abstract UserDAO getUserDAO();
+	public abstract TransactionDAO getTransactionDAO();
+	public abstract SavindsDAO getSavingsDAO();
+	public abstract PlannedDAO getPlannedDAO();
+	public abstract MainDAO getMainDAO();
+	public abstract LoginDAO getLoginDAO();
+	public abstract CategoriesPlannedDAO getCategoriesPlanned();
+	public abstract CategoriesDAO getCategoriesDAO();
+	
+	public static DAOFactory getDAOFactory(){
+		DAOFactory factory = null;
+		try {
+			factory = getDAOFactory(MYSQL_DAO_FACTORY);
+		}catch(NoSuchDbTypeExeption e) {
+			e.printStackTrace();
+		}
+		return factory;
+		
+	}
+	private static DAOFactory getDAOFactory(int type) throws NoSuchDbTypeExeption {
+		switch(type) {
+		case MYSQL_DAO_FACTORY:
+			return new MysqlDAOFactory();
+			default:
+				throw new NoSuchDbTypeExeption();
+		}
+
+	}
 
 }

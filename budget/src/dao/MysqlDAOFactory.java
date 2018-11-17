@@ -9,7 +9,13 @@ public class MysqlDAOFactory extends DAOFactory{
 	}
 
 	@Override
-	public SavingsDAO getSavingDAO() {
+	public TransactionDAO getTransactionDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SavindsDAO getSavingsDAO() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -21,55 +27,25 @@ public class MysqlDAOFactory extends DAOFactory{
 	}
 
 	@Override
-	public OtherDAO getOtherDAO() {
+	public MainDAO getMainDAO() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public MedicineDAO getMedicineDAO() {
+	public LoginDAO getLoginDAO() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public FootDAO getFootsDAO() {
+	public CategoriesPlannedDAO getCategoriesPlanned() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public FinancialDAO getFinancialDAO() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public EntertainmentDAO getEntertainmentDAO() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public DevelopmentDAO getDevelopmentDAO() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public CosmeticsDAO getCosmeticsDAO() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public ClothesDAO getClothesDAO() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public BillsDAO getBillsDAO() {
+	public CategoriesDAO getCategoriesDAO() {
 		// TODO Auto-generated method stub
 		return null;
 	}

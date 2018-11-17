@@ -1,0 +1,45 @@
+package dao;
+
+import java.util.List;
+
+import model.Login;
+
+public class LoginDAOImpl implements LoginDAO{
+
+	@Override
+	public Login creat(Login newObject) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Login read(Long premaryKey) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean update(Login updateObject) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delate(Long key) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Login> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Login getLoginByName(String Name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
